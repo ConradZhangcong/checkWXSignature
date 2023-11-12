@@ -8,7 +8,8 @@ WORKDIR /app
 COPY / /app
 
 # 暴露应用程序所使用的端口（根据你的应用程序进行修改）
-EXPOSE 3000
+EXPOSE 30000
 
 # 在容器中运行应用程序的命令（根据你的应用程序进行修改）
+RUN npm install
 CMD [ "npm", "run" ,"prd" ]
