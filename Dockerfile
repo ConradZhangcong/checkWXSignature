@@ -11,4 +11,4 @@ COPY / /app
 EXPOSE 3000
 
 # 在容器中运行应用程序的命令（根据你的应用程序进行修改）
-CMD [ "npm", "start" ]
+CMD [ "npm", "run" ,"prd" ]
